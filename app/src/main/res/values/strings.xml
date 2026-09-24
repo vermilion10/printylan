@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Printylan</string>
+
+    <!-- Main screen -->
+    <string name="setup_title">Turn on Printylan</string>
+    <string name="setup_body">Android lists USB printers in the print dialog after you turn on Printylan under Settings, Printing.</string>
+    <string name="setup_action">Open print settings</string>
+    <string name="section_printers">Connected printers</string>
+    <string name="print_file">Print a file</string>
+    <string name="print_file_failed">Printylan could not open that file</string>
+    <string name="empty_title">No USB printer found</string>
+    <string name="empty_body">Connect a printer with a USB OTG cable or adapter. It appears here within a second or two.</string>
+    <string name="usb_ids">USB %1$04X:%2$04X</string>
+    <string name="access_needed">Printylan needs your permission to talk to this printer.</string>
+    <string name="access_action">Allow access</string>
+    <string name="language_label">Printer language</string>
+    <string name="language_auto">Automatic (%1$s)</string>
+    <string name="language_auto_none">Automatic (not detected)</string>
+    <string name="language_unsupported">Printylan could not find a language it supports. Pick one to try.</string>
+    <string name="language_reported">Printer reports: %1$s</string>
+    <string name="status_ready">Ready</string>
+    <string name="status_checking">Checking</string>
+    <string name="status_no_access">No access</string>
+
+    <!-- Printer and job status -->
+    <string name="printer_description">USB printer</string>
+    <string name="printer_needs_access">Open Printylan to allow USB access</string>
+    <string name="printer_unsupported">Unsupported printer language</string>
+    <string name="status_out_of_paper">Out of paper</string>
+    <string name="status_offline">Printer is offline</string>
+    <string name="status_error">Printer reports an error</string>
+    <string name="status_busy">Printer is busy</string>
+    <string name="job_printer_missing">The printer is no longer connected</string>
+    <string name="job_access_denied">USB access was denied</string>
+    <string name="job_no_document">The document is not available</string>
+    <string name="job_failed">Printing failed</string>
+</resources>
